@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+/bin/
+/dist/
+*.test
+
+# Go workspace / coverage
+go.work
+go.work.sum
+*.out
+coverage.txt
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
+
+# Local data produced by projects
+*.db
+*.log
+data/*.json
